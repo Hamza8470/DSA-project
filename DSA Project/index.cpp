@@ -16,7 +16,7 @@ public:
 
     Checkin(string d, int m, int s, int stress, string a)
         : date(d), mood(m), sleepHours(s), stressLevel(stress), appetite(a) {}
-
+// display function
     void display() const {
         cout << "Date: " << date
              << " | Mood: " << mood
