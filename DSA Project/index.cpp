@@ -76,7 +76,7 @@ public:
             temp.pop();
         }
     }
-
+// giveSuggestions function
     void giveSuggestion(const Checkin& c) const {
         cout << "\n💡 Suggestion:\n";
 
